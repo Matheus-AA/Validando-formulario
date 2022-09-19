@@ -1,4 +1,3 @@
-// 705.484.450-52 070.987.720-03
 class ValidaCPF{
     constructor(cpfEnviado){
         Object.defineProperty(this, 'cpfLimpo', {
@@ -47,10 +46,3 @@ class ValidaCPF{
 
 }
 
-/* const validacpf = new ValidaCPF('099.778.154-88')
-
-if(!validacpf.valida()){
-    console.log('CPF INVALIDO')
-} else{
-    console.log('CPF VALIDO')
-} */
